@@ -54,9 +54,9 @@ Casos Cerrados = COUNTROWS(
 Sobre esa misma base se calculan `% Cumplimiento SLA` (casos cerrados dentro del tiempo definido por `dim_prioridad[sla_horas]`) y `% SLA Vencido`.
 
 ## Dashboard
-
+![Dashboard - Resumen Ejecutivo](dashboard-resumen-ejecutivo.png)
 **Resumen Ejecutivo** (Página 1): 4 tarjetas KPI (Total Casos, Casos Activos, Casos Cerrados, % Cumplimiento SLA con semáforo rojo/ámbar/verde), tendencia de casos por año, casos por categoría y carga de trabajo por agente. Tema oscuro ejecutivo.
-
+![Dashboard - Backlog SLA](backlog-sla.png)
 **Backlog SLA** (Página 2): tabla operativa filtrada a casos activos (estado no final), con estado, prioridad, agente asignado y horas transcurridas — para que un supervisor priorice los casos más antiguos.
 
 ## Retos técnicos resueltos
